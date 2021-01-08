@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<div id="container">
+
+    <div id="header">
+        <div id="headerTitle">To Do List</div>
+    </div>
+
+    <div id="sideBar">
+        <div id="sideTitle">Projects<div id="addProject">+</div></div>
+
+        <div class="project"><div class="projectTitle">General</div><div class="deleteProj">X</div></div>
+        <div class="project"><div class="projectTitle">Today</div><div class="deleteProj">X</div></div>
+        <div class="project"><div class="projectTitle">This Week</div><div class="deleteProj">X</div></div>
+
+    </div>
+
+
+    <div id="content">
+        <div id="contentTitle">Tasks<div id="addTask">+</div></div>
+
+<!-- empty input version to mock up -->
+        <div class="task">
+            <div class="checkCont"><input type="checkbox" class="checkmark"></div>
+            <div class="taskContent">
+                <div class="taskTitle">
+                    <textarea value="" placeholder="Enter Task Title"></textarea>
+                </div>
+                <div class="taskDesc">
+                    <textarea type="text" value="" placeholder="Enter Task Description"></textarea>
+                </div>
+            </div>
+            <div class="deleteTask"><div id="delKey">X</div></div>     
+        </div>
+
+        <div class="task">
+            <div class="checkCont"><input type="checkbox" class="checkmark"></div>
+            <div class="taskContent">
+                <div class="taskTitle">
+                    <textarea value="" placeholder="Do Laundry">Do Laundry</textarea>
+                </div>
+                <div class="taskDesc">
+                    <textarea type="text" value="" placeholder="Need to do laundry this week">Need to do laundry this week</textarea>
+                </div>
+            </div>
+            <div class="deleteTask"><div id="delKey">X</div></div>     
+        </div>
+
+        <div class="task">
+            <div class="checkCont"><input type="checkbox" class="checkmark"></div>
+            <div class="taskContent">
+                <div class="taskTitle">
+                    <textarea value="" placeholder="Workout">Workout</textarea>
+                </div>
+                <div class="taskDesc">
+                    <textarea type="text" value="" placeholder="Seriously need to workout soon">Seriously need to workout soon</textarea>
+                </div>
+            </div>
+            <div class="deleteTask"><div id="delKey">X</div></div>     
+        </div>
+
+        <div class="task">
+            <div class="checkCont"><input type="checkbox" class="checkmark"></div>
+            <div class="taskContent">
+                <div class="taskTitle">
+                    <textarea value="" placeholder="Take out Trash">Take out Trash</textarea>
+                </div>
+                <div class="taskDesc">
+                    <textarea type="text" value="" placeholder="Remember to take the trash out by 7PM">Remember to take the trash out by 7PM</textarea>
+                </div>
+            </div>
+            <div class="deleteTask"><div id="delKey">X</div></div>     
+        </div>
+
+
+
+
+    </div>
+
+
+</div>
+
+
+<script src="index.js"></script>
+
+
+</body>
+</html>

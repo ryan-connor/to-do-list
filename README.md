@@ -1,0 +1,1 @@
+Basic To Do List app made with Vanilla JavaScript, HTML, and CSS.
